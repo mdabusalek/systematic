@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 992px) {
+     .inner_nav {
+	    padding: 0;
+	    width: 90%;
+    }
+    .inner_header {
+        padding-bottom: 0;
+    }
+    .inner_hero img {
+        margin-right: 40px;
+    }
+    .inner_hero h2{
+        font-size: 62px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .hero_img {
+        display: block;
+        text-align: center;
+    }
+    .hero_img img{
+        float: none;
+        margin: 0;
+    }
+    .hero_text {
+        margin-top: 0;
+    }
+    .inner_hero h2 {
+        margin-top: 20px;
+    }
+    .inner_work {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        text-align: center;
+    }
+    .service_img {
+        float: none;
+        margin: 0;
+    }
+    .about_area, .service_area, .clint_area {
+        margin-bottom: 30px;
+    }
+    .clint_header img {
+        float: none;
+        margin: 0;
+    }
+    #work_area h3 {
+        display: inline-block;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+    
+    .inner_footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .search_area {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mini_menu {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .search_area form {
+        float: none;
+        padding: 1%;
+        text-align: center;
+        margin: 0 auto;
+        height: 22px;
+    }
+    .search_area input {
+        border-radius: 30px;
+    }
+    .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .social-icon {
+        float: none;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .inner_footer{
+        grid-template-columns: 1fr;
+    }
+    .inner_copyright {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .left_area,
+    .right_area {
+	    float: none;
+	    margin-right: 0;
+    }
+    .inner_copyright p{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
